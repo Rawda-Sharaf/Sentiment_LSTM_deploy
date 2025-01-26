@@ -12,6 +12,7 @@ import html
 
 nltk.download('punkt')
 nltk.download('stopwords')
+nltk.download('punkt_tab')
 from nltk.corpus import stopwords
 stop_words = set(stopwords.words('english'))
 
